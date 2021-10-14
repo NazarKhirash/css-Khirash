@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    background: silver;
+}
+
+h1{
+    text-align: center;
+}
+
+.head-info{
+    display: flex;
+    background: aqua;
+}
+
+.head-info>p{
+    width: 70%;
+    font-size: 40px;
+    text-align: justify;
+    padding: 20px;
+}
+.head-info>img{
+    width: 30%;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-info{
+    display: flex;
+    justify-content: center;
+    background: yellow;
+}
+
+.main-info>p{
+    padding: 15px;
+}
+
+.info_left{
+    font-size: 20px;
+    width: 35%;
+}
+
+.info_right{
+    width: 30%;
+}
+
+.main-info>img{
+    width: 35%;
+    padding: 20px 0;
+}
