@@ -1,52 +1,97 @@
 body{
     margin: 0;
+}
+
+.border-b{
+    border-bottom: 5px solid yellow;
+}
+
+.border2px{
+    border: 2px solid yellow;
+}
+
+.head{
+    border: solid 5px yellow;
+    text-align: center;
     background: silver;
 }
 
-h1{
-    text-align: center;
-}
 
 .head-info{
     display: flex;
     background: aqua;
+    height: 400px;
+
+
 }
 
-.head-info>p{
-    width: 70%;
-    font-size: 40px;
-    text-align: justify;
-    padding: 20px;
-}
-.head-info>img{
-    width: 30%;
+.head-info-left{
+    height: 100%;
+    width: 75%;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+
 }
 
-h2{
+.head-info-right{
+    width: 25%;
+    height: 100%;
+}
+
+.head-info-right>img{
+    height: 100%;
+    width: 100%;
+}
+
+.h2-info{
+    background: silver;
     text-align: center;
-    font-size: 40px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
 }
+
+
 
 .main-info{
     display: flex;
+    box-sizing: border-box;
+    background: chartreuse;
+    align-items: center;
     justify-content: center;
-    background: yellow;
+    text-align: justify;
 }
 
-.main-info>p{
-    padding: 15px;
+.height{
+    height: 100%;
 }
 
-.info_left{
-    font-size: 20px;
-    width: 35%;
-}
-
-.info_right{
+.main-info-left{
     width: 30%;
+    padding: 10px;
+    font-size: 22px;
+    font-style: oblique;
+
 }
 
-.main-info>img{
-    width: 35%;
-    padding: 20px 0;
+.main-info-center{
+    width: 40%;
+    padding: 10px;
 }
+
+.main-info-center>img{
+    width: 100%;
+
+}
+
+.main-info-right{
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    font-style: revert;
+}
+
+
+
+
