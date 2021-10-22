@@ -1,0 +1,101 @@
+.head{
+    height: 400px;
+    background: silver;
+    box-sizing: border-box;
+    border: solid 5px gold;
+    text-align: center;
+
+
+}
+
+.margine0{
+    margin: 0;
+}
+
+.head_p1{
+    font-size: 90px;
+    color: orange;
+    margin-top: 50px;
+
+}
+
+.head_p2{
+    font-size: 90px;
+    background: deepskyblue;
+    color: white;
+    margin: 0 525px;
+}
+
+.head_p3{
+    font-size: 50px;
+    font-style: revert;
+}
+
+.info{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    background: yellow;
+    padding: 30px;
+
+}
+
+
+.info_left>h2{
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.info_left>h3{
+       font-size: 30px;
+        color: dodgerblue;
+}
+.p1-left{
+    margin-top: 80px;
+    font-size: 20px;
+}
+.p2-left{
+    font-size: 20px;
+}
+
+.info_right{
+    margin-left: 50px;
+    box-sizing: border-box;
+    background: white;
+
+}
+
+.info_right__text>h2{
+    font-size: 60px;
+    margin-top: 40px;
+    padding-left: 150px;
+}
+
+.info_right__text>h3{
+    font-size: 30px;
+    color: dodgerblue;
+    margin-left: 185px;
+}
+
+.info_right__text>p{
+    margin-top: 115px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.info_right__video{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.video{
+    height: 150px;
+    width: 250px;
+    padding-left: 20px;
+}
+.a-you{
+    padding-left: 90px;
+}
+
