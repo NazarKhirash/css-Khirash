@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    text-align: justify;
+}
+
+.height200{
+    height: 200px;
+}
+
+.box-siz{
+    box-sizing: border-box;
+}
+
+.header{
+    background: aquamarine;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.nav{
+    height: 150px;
+    background: darkcyan;
+    font-size: 25px;
+}
+
+.nav>p{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content{
+    display: flex;
+    height: 500px;
+}
+
+.cont_left{
+    width: 75%;
+    background: orange;
+}
+
+.cont_right{
+    width: 25%;
+    background: chartreuse;
+}
+
+.p-boxs{
+    font-size: 35px;
+    padding: 20px;
+}
+
+.footer{
+    background: blueviolet;
+}
