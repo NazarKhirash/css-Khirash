@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    text-align: justify;
+}
+
+.box-siz{
+    box-sizing: border-box;
+}
+
+.header{
+    height: 200px;
+    background: silver;
+    font-size: 20px;
+}
+
+.header>p{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.boxes{
+    background: deepskyblue;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
+
+.box{
+    background: chartreuse;
+    height: 100%;
+    width: 30%;
+    font-size: 25px;
+    padding: 20px;
+   box-sizing: border-box;
+}
+
+
+.footer{
+    background: coral;
+    height: 400px;
+    font-size: 40px;
+    padding: 80px;
+}
