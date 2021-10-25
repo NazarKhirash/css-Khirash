@@ -12,15 +12,17 @@
     margin: 0;
 }
 
-.head_p1{
+.head_p__f-size90{
     font-size: 90px;
+}
+
+.head_p1{
     color: orange;
     margin-top: 50px;
 
 }
 
 .head_p2{
-    font-size: 90px;
     background: deepskyblue;
     color: white;
     margin: 0 525px;
@@ -50,12 +52,13 @@
        font-size: 30px;
         color: dodgerblue;
 }
-.p1-left{
-    margin-top: 80px;
+
+.info_p__f-size20{
     font-size: 20px;
 }
-.p2-left{
-    font-size: 20px;
+
+.p1-left{
+    margin-top: 80px;
 }
 
 .info_right{
@@ -79,7 +82,6 @@
 
 .info_right__text>p{
     margin-top: 115px;
-    font-size: 20px;
     padding: 10px;
 
 }

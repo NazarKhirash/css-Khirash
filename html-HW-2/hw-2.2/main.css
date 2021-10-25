@@ -3,6 +3,14 @@ body{
     text-align: justify;
 }
 
+.p_f-size28{
+    font-size: 28px;
+}
+
+.box-siz{
+    box-sizing: border-box;
+}
+
 
 .height200{
     height: 200px;
@@ -29,21 +37,17 @@ body{
 .info_right{
     height: 100%;
     width: 70%;
-    box-sizing: border-box;
 }
 
 .info_left{
     height: 100%;
     width: 30%;
     background: orange;
-    font-size: 28px;
     padding: 5px;
-    box-sizing: border-box;
 }
 
 .info_right__box1{
     background: white;
-    box-sizing: border-box;
     font-size: 30px;
     padding: 10px;
 }
@@ -52,12 +56,10 @@ body{
     background: deepskyblue;
     font-size: 40px;
     padding: 10px;
-    box-sizing: border-box;
 }
 
 .footer{
     background: silver;
-    font-size: 28px;
     padding: 20px;
 
 }
