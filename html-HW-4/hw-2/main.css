@@ -249,6 +249,8 @@
     height: 30px;
     width: 50px;
     border-radius: 13px;
+    background: darkblue;
+    color: white;
 }
 
 .right__button {
